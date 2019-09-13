@@ -1,14 +1,14 @@
-// import React from "react";
+import React from "react";
 
-// function Cards(props) {
-//             return (
-//                 <div>
-//                     <h1>{props}</h1>
-//                 </div>
-//             )
+function Cards({ name }) {
+            return (
+                <div>
+                    <h1>{name}</h1>
+                </div>
+            )
             
-//         }
+        }
         
     
 
-// export default Cards;
+export default Cards;
